@@ -10,7 +10,7 @@ cd obs-studio-25.0.8/
 mkdir build && cd build
 # Run cmake to generate configuration
 cmake -DUNIX_STRUCTURE=1 -DCMAKE_INSTALL_PREFIX=/usr ..
-# Compile OSB-studio with 8 CPU threads
+# Compile OBS-Studio with 8 CPU threads
 make -j 8 -s
 # Make Debian package
 sudo checkinstall --pkgname=obs-studio
