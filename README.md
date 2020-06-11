@@ -31,9 +31,8 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libfontconfig-dev libfreetype6-dev libgl1-mesa-dev \
         libjansson-dev libluajit-5.1-dev libqt5x11extras5-dev libspeexdsp-dev \
         libswresample-dev libswscale-dev libudev-dev libv4l-dev libvlc-dev \
-        libx11-dev libxcb-shm0-dev libxcb-xinerama0-dev libxcomposite-dev \
-        libxinerama-dev pkg-config python3-dev swig libxcb-randr0-dev \
-        libxcb-xfixes0-dev libx11-xcb-dev
+        libxcb-xinerama0-dev libxcomposite-dev libxinerama-dev python3-dev \
+        swig libxcb-randr0-dev libx11-xcb-dev
 ```
 
 ### Install Nvidia CUDA 10.2 on Ubuntu 16.04
