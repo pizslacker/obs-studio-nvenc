@@ -46,3 +46,6 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
 sudo dpkg -i nvidia-settings_440.33.01-0ubuntu1_amd64.deb
 sudo apt-mark hold nvidia-settings
 ```
+
+## OBS Studio settings for NVENC
+![OBS Studio settings for NVENC](https://github.com/pizslacker/obs-studio-nvenc/blob/master/img/osb-studio-nvenc-settings.png)
