@@ -1,10 +1,11 @@
 # OBS-Studio-NVENC
 Scripts to compile **FFmpeg** + **OBS-Studio** with **NVENC** hardware-encoding/decoding capability.
 
-Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-codec, to:
-- Stream screencasts / games with **OBS-Studio**
-- Use **OBS-Studio** to record screencasts
-- Use FFmpeg to transcode video-files (encode from one format to another)
+Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to speed up:
+
+- Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
+- Recording screencasts with **OBS-Studio**
+- Using **FFmpeg** to transcode video-files (encode from one format to another)
 
 ## Requirements
 
