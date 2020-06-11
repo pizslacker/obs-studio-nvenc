@@ -10,6 +10,9 @@ Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to sp
 - Recording screencasts with **OBS-Studio**
 - Using **FFmpeg** to transcode video-files (encode from one format to another)
 
+## Advantages
+Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration, putting the processing over on the GPU instead of CPU. The advantages are: higher FPS count in game-streams and screencasts, improved and sharpened image-quality, removal of video- / audio-lag in streams and recordings.
+
 ## Requirements
 
 ### Dependencies
