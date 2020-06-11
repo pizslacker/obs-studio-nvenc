@@ -1,4 +1,4 @@
-# osb-studio-nvenc
+# OBS-Studio-NVENC
 Scripts to compile FFmpeg + OBS-Studio with NVENC encoding/decoding capability.
 
 Use an Nvidia GPU to hardware-stream with OSB-Studio (using NVENC)
