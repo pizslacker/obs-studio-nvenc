@@ -3,6 +3,7 @@ Scripts to build **FFmpeg** + **OBS-Studio** with **NVENC** hardware-encoding/de
 
 Generates .deb-packages for Ubuntu after compiling completes.
 
+## Use-cases
 Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to speed up:
 
 - Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
