@@ -19,7 +19,8 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libjack-jackd2-dev libxcomposite-dev x11proto-composite-dev \
         libx264-dev libgl1-mesa-dev libglu1-mesa-dev libasound2-dev \
         libpulse-dev libx11-dev libxext-dev libxfixes-dev \
-        libxi-dev qt5-default qttools5-dev qt5-qmake qtbase5-dev
+        libxi-dev qt5-default qttools5-dev qt5-qmake qtbase5-dev \
+        checkinstall
 ```
 
 ### Install Nvidia CUDA 10.2 on Ubuntu 16.04
