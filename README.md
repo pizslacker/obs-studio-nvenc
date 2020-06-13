@@ -11,7 +11,16 @@ Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to sp
 - Using **FFmpeg** to transcode video-files (encode from one format to another)
 
 ## Advantages
-Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration, putting the processing over on the GPU instead of CPU. The advantages are: higher FPS count in game-streams and screencasts, improved / sharpened image-quality and removal of video- / audio-lag in streams and recordings.
+The advantage with using Nvidia NVenc for OBS-Studio is mainly trensferring encoding / decoding / transcoding capabilities from processing on the system CPU, to a capable Nvidia GPU.
+
+Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized.
+
+List of advantages os using Nvidia CUDA for vide-coding:
+- Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration
+- Transferring floating-point processing over on an Nvidia GPU instead of the system CPU
+- Higher FPS count in game-streams and screencasts
+- Improved / sharpened image-quality
+- Removal of video- / audio-lag in streams and recordings
 
 ## Requirements
 
