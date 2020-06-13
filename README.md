@@ -47,12 +47,5 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
 - [Install Nvidia CUDA 10.2 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
 - [Install Nvidia CUDA 10.2 on Ubuntu 18.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
 
-### Fix nvidia-settings bug with nvidia-440 on Ubuntu 16.04
-```
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/nvidia-settings_440.33.01-0ubuntu1_amd64.deb
-sudo dpkg -i nvidia-settings_440.33.01-0ubuntu1_amd64.deb
-sudo apt-mark hold nvidia-settings
-```
-
 ## OBS Studio settings for NVENC
 ![OBS Studio settings for NVENC](https://github.com/pizslacker/obs-studio-nvenc/blob/master/img/osb-studio-nvenc-settings.png)
