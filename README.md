@@ -44,16 +44,11 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         swig libxcb-randr0-dev libx11-xcb-dev
 ```
 
-### Install Nvidia CUDA 10.2 on Ubuntu 16.04
-```
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
-sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
-wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda-repo-ubuntu1604-10-2-local-10.2.89-440.33.01_1.0-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu1604-10-2-local-10.2.89-440.33.01_1.0-1_amd64.deb
-sudo apt-key add /var/cuda-repo-10-2-local-10.2.89-440.33.01/7fa2af80.pub
-sudo apt-get update
-sudo apt-get -y install cuda
-```
+[Install Nvidia CUDA 10.2 on Ubuntu 16.04]([Fix nvidia-settings bug with nvidia-440 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
+)
+[Install Nvidia CUDA 10.2 on Ubuntu 18.04]([Fix nvidia-settings bug with nvidia-440 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
+)
+
 ### Fix nvidia-settings bug with nvidia-440 on Ubuntu 16.04
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/nvidia-settings_440.33.01-0ubuntu1_amd64.deb
