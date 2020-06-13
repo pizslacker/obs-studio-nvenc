@@ -44,8 +44,8 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         swig libxcb-randr0-dev libx11-xcb-dev
 ```
 
-- [Install Nvidia CUDA 10.2 on Ubuntu 16.04!](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
-- [Install Nvidia CUDA 10.2 on Ubuntu 18.04!](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
+- [Install Nvidia CUDA 10.2 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
+- [Install Nvidia CUDA 10.2 on Ubuntu 18.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
 
 ### Fix nvidia-settings bug with nvidia-440 on Ubuntu 16.04
 ```
