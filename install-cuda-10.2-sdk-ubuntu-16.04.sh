@@ -7,6 +7,6 @@ sudo add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/r
 sudo apt-get update
 sudo apt-get -y install cuda
 sudo apt-mark hold cuda*
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/nvidia-settings_440.33.01-0ubuntu1_amd64.deb ~/Downloads/
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/nvidia-settings_440.33.01-0ubuntu1_amd64.deb ~/Downloads/
 sudo dpkg -i ~/Downloads/nvidia-settings_440.33.01-0ubuntu1_amd64.deb
 sudo apt-mark hold nvidia-settings
