@@ -41,7 +41,8 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libjansson-dev libluajit-5.1-dev libqt5x11extras5-dev libspeexdsp-dev \
         libswresample-dev libswscale-dev libudev-dev libv4l-dev libvlc-dev \
         libxcb-xinerama0-dev libxcomposite-dev libxinerama-dev python3-dev \
-        swig libxcb-randr0-dev libx11-xcb-dev yasm nasm libmp3lame0 libmp3lame-dev
+        swig libxcb-randr0-dev libx11-xcb-dev yasm nasm libmp3lame0 libmp3lame-dev \
+        libqt5svg5 libqt5svg5-dev
 ```
 
 - [Install Nvidia CUDA 10.2 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
