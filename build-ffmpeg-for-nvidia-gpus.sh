@@ -14,9 +14,9 @@ cd ../
 # Build and install ffmpeg (for Nvidia GPUs)
 git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 cd ffmpeg/
-./configure --enable-cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --enable-shared --enable-gpl --enable-version3 --enable-runtime-cpudetect --disable-opencl --enable-libmp3lame --enable-libx264 --cc="gcc -m64 -fPIC"
+./configure --enable-cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --enable-shared --enable-gpl --enable-version3 --enable-runtime-cpudetect --disable-opencl --enable-libmp3lame --enable-libx264 --cc="gcc -m64 -fPIC" && \
 # Compile with 8 CPU threads 
-make -j 8 -s
+make -j 8 -s && \
 # Build and install Ubuntu/Debian .deb-package
 sudo checkinstall --pkgname=FFmpeg
 sudo apt-mark hold ffmpeg
