@@ -45,8 +45,8 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libqt5svg5 libqt5svg5-dev
 ```
 
-- [Install Nvidia CUDA 10.2 on Ubuntu 16.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-16.04.sh)
 - [Install Nvidia CUDA 10.2 on Ubuntu 18.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
+- [Install Nvidia CUDA 10.1 on Ubuntu 20.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.1-sdk-ubuntu-20.04.sh)
 
 ## OBS Studio settings for NVENC
 ![OBS Studio settings for NVENC](https://github.com/pizslacker/obs-studio-nvenc/blob/master/img/osb-studio-nvenc-settings.png)
