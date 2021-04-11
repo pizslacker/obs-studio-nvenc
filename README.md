@@ -3,6 +3,11 @@ Scripts to build **FFmpeg** + **OBS-Studio** with **NVENC** hardware-encoding/de
 
 Generates .deb-packages for Ubuntu after compiling completes.
 
+## Build instructions:
+1. Install the dependencies (listed below)
+2. Build FFMmeg
+3. Build OBS
+
 ## Use-cases
 Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to speed up:
 
