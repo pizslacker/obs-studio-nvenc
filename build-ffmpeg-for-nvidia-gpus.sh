@@ -4,14 +4,12 @@
 #
 # Remove ubuntu-standard ffmpeg
 sudo apt-get remove --purge ffmpeg
-# Clone latest ffmpeg git-repo
-git clone https://git.ffmpeg.org/ffmpeg.git
 # Clone latest NV-codec-headers (Nvidia)
 git clone https://github.com/FFmpeg/nv-codec-headers
 cd nv-codec-headers/
 sudo make install
 cd ../
-# Build and install ffmpeg (for Nvidia GPUs)
+# Clone latest ffmpeg git, build and install ffmpeg (for Nvidia GPUs)
 git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 cd ffmpeg/
 ./configure --enable-cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --enable-shared --enable-gpl --enable-version3 --enable-runtime-cpudetect --disable-opencl --enable-libmp3lame --enable-libx264 --cc="gcc -m64 -fPIC" && \
