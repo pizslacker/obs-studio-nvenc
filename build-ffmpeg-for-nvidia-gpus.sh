@@ -17,7 +17,6 @@ cd nv-codec-headers/
 sudo make install
 cd ../
 # Build and install ffmpeg (for Nvidia GPUs)
-git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 cd ffmpeg/
 # Enabling various codecs and encoders
 ./configure --enable-cuda --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --enable-shared --enable-gpl --enable-version3 --enable-runtime-cpudetect --disable-opencl --enable-libmp3lame --enable-libx264 --enable-libx265 --cc="gcc -m64 -fPIC" && \
