@@ -1,5 +1,5 @@
 # OBS-Studio-NVENC
-Scripts to build **FFmpeg** + **OBS-Studio** with **Nvidia CUDA** / **NVENC** hardware-encoding/decoding capability.
+Scripts to build **FFmpeg** + **OBS-Studio** with **Nvidia&reg; CUDA&reg;** / **NVENC&reg;** hardware-encoding/decoding capability.
 
 Generates .deb-packages for Ubuntu after compiling completes.
 
