@@ -29,7 +29,7 @@ List of advantages on using Nvidia CUDA for vide-coding:
 
 ## Requirements
 
-### Dependencies
+### Ubuntu Desktop Dependencies
 ```
 sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libfreetype6-dev libgpac-dev libsdl1.2-dev libtheora-dev libtool libva-dev \
