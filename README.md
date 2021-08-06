@@ -12,7 +12,7 @@ Generates (.deb) packages for Ubuntu Desktop after compiling completes.
 Utilize **Nvidia&reg; NVENC&reg;** (*Nvidia&reg; Encoder/Decoder*) hardware-acceleration, to speed up:
 
 - Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
-- Recording screencasts with **OBS-Studio**
+- Recording screencasts / games with **OBS-Studio**
 - Using **FFmpeg** to transcode video-files (encode from one format to another)
 
 ## Advantages
