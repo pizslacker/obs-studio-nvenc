@@ -9,7 +9,7 @@ Generates (.deb) packages for Ubuntu Desktop after compiling completes.
 3. Build OBS
 
 ## Use-cases
-Utilize **Nvidia NVenc** (*Nvidia&reg; Encoder/Decoder*) hardware-acceleration, to speed up:
+Utilize **Nvidia&reg; NVenc** (*Nvidia&reg; Encoder/Decoder*) hardware-acceleration, to speed up:
 
 - Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
 - Recording screencasts with **OBS-Studio**
