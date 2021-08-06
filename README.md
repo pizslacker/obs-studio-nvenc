@@ -18,7 +18,7 @@ Utilize **Nvidia NVenc** (*Nvidia Encoder/Decoder*) hardware-acceleration, to sp
 ## Advantages
 The main advantage with using Nvidia NVenc for OBS-Studio is mainly transferring video-encoding / -decoding / -transcoding capabilities from the system CPU, to a capable Nvidia GPU.
 
-Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized.
+Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized. The VDPAU video-chip included on high-end Nvidia cards accelerates x264/x265(hevc) decoding/encoding as well.
 
 List of advantages on using Nvidia CUDA for vide-coding:
 - Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration
