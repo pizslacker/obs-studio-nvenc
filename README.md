@@ -47,7 +47,7 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         libswresample-dev libswscale-dev libudev-dev libv4l-dev libvlc-dev \
         libxcb-xinerama0-dev libxcomposite-dev libxinerama-dev python3-dev \
         swig libxcb-randr0-dev libx11-xcb-dev yasm nasm libmp3lame0 libmp3lame-dev \
-        libqt5svg5 libqt5svg5-dev
+        libqt5svg5 libqt5svg5-dev libx265-dev
 ```
 
 - [Install Nvidia CUDA 10.2 on Ubuntu 18.04](https://github.com/pizslacker/obs-studio-nvenc/blob/master/install-cuda-10.2-sdk-ubuntu-18.04.sh)
