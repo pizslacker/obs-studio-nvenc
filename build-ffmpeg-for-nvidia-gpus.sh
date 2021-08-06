@@ -6,7 +6,7 @@
 sudo apt-get remove --purge ffmpeg
 if [ -d ffmpeg/ ]; then
    # Fetch and pull repo
-   git fetch && git pull
+   cd ffmpeg && git fetch && git pull
 else
    # Clone latest ffmpeg git-repo
    git clone https://git.ffmpeg.org/ffmpeg.git
