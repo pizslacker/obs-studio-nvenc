@@ -3,7 +3,7 @@ Scripts to build/compile **FFmpeg** and **OBS-Studio** with **Nvidia&reg; CUDA&r
 
 **Nvidia® NVENC® (Nvidia® Encoder/Decoder)** is a proprietary microcontroller hardware based encoding solution. 
 
-Generates (.deb) packages for Ubuntu Desktop 18.04 / 20.04 after compiling completes.
+The scripts generate (.deb) packages for Ubuntu Desktop 18.04 / 20.04 after compiling completes.
 
 These scripts are intended for **Ubuntu Desktop 18** and **20** only.
 
