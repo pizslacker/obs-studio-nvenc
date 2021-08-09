@@ -1,7 +1,7 @@
 # OBS-Studio-NVENC
 Scripts to build/compile **FFmpeg** and **OBS-Studio** with **Nvidia&reg; CUDA&reg;** / **NVENC&reg;** hardware-encoding/decoding capability.
 
-**Nvidia® NVENC® (Nvidia® Encoder/Decoder)** hardware-acceleration is a proprietary microcontroller hardware based encoding solution. 
+**Nvidia® NVENC® (Nvidia® Encoder/Decoder)** is a proprietary microcontroller hardware based encoding solution. 
 
 Generates (.deb) packages for Ubuntu Desktop 18.04 / 20.04 after compiling completes.
 
