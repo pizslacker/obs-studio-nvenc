@@ -10,25 +10,6 @@ These scripts are intended for **Ubuntu Desktop 18** and **20** only.
 2. Build FFmpeg
 3. Build OBS
 
-## Use-cases
-Utilize **Nvidia&reg; NVENC&reg;** (*Nvidia&reg; Encoder/Decoder*) hardware-acceleration, to speed up:
-
-- Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
-- Recording screencasts / games with **OBS-Studio**
-- Using **FFmpeg** to transcode video-files (encode from one format to another)
-
-## Advantages
-The main advantage with using Nvidia&reg; NVENC&reg; for OBS-Studio is mainly transferring video-encoding / -decoding / -transcoding capabilities from the system CPU, to a capable Nvidia&reg; GPU.
-
-Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized. The NVENC&reg; video-chip included on high-end Nvidia cards accelerates x264/x265(hevc) decoding/encoding as well.
-
-List of advantages on using Nvidia&reg; CUDA&reg; / NVENC&reg; for video-transcoding:
-- Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration
-- Transferring floating-point processing over on an Nvidia GPU instead of the system CPU
-- Higher FPS count in game-streams and screencasts
-- Improved / sharpened image-quality
-- Removal of video- / audio-lag in streams and recordings
-
 ## Requirements
 
 ### Ubuntu Desktop Dependencies
@@ -51,6 +32,25 @@ sudo apt-get -y install git autoconf automake build-essential libass-dev \
         swig libxcb-randr0-dev libx11-xcb-dev yasm nasm libmp3lame0 libmp3lame-dev \
         libqt5svg5 libqt5svg5-dev libx265-dev nvidia-cuda-toolkit
 ```
+
+## Use-cases
+Utilize **Nvidia&reg; NVENC&reg;** (*Nvidia&reg; Encoder/Decoder*) hardware-acceleration, to speed up:
+
+- Streaming screencasts / games with **OBS-Studio** (to YouTube / Twitch)
+- Recording screencasts / games with **OBS-Studio**
+- Using **FFmpeg** to transcode video-files (encode from one format to another)
+
+## Advantages
+The main advantage with using Nvidia&reg; NVENC&reg; for OBS-Studio is mainly transferring video-encoding / -decoding / -transcoding capabilities from the system CPU, to a capable Nvidia&reg; GPU.
+
+Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized. The NVENC&reg; video-chip included on high-end Nvidia cards accelerates x264/x265(hevc) decoding/encoding as well.
+
+List of advantages on using Nvidia&reg; CUDA&reg; / NVENC&reg; for video-transcoding:
+- Speed up video encoding / decoding / transcoding / streaming with direct hardware-acceleration
+- Transferring floating-point processing over on an Nvidia GPU instead of the system CPU
+- Higher FPS count in game-streams and screencasts
+- Improved / sharpened image-quality
+- Removal of video- / audio-lag in streams and recordings
 
 ## OBS Studio settings for NVENC
 ![OBS Studio settings for NVENC](https://github.com/pizslacker/obs-studio-nvenc/blob/master/img/osb-studio-nvenc-settings.png)
