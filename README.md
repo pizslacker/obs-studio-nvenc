@@ -1,7 +1,9 @@
 # OBS-Studio-NVENC
 Scripts to build/compile **FFmpeg** and **OBS-Studio** with **Nvidia&reg; CUDA&reg;** / **NVENC&reg;** hardware-encoding/decoding capability.
 
-Generates (.deb) packages for Ubuntu Desktop after compiling completes.
+Generates (.deb) packages for Ubuntu Desktop 18.04 / 20.04 after compiling completes.
+
+These scripts are intended for **Ubuntu Desktop 18** and **20** only.
 
 ## Build instructions:
 1. Install the dependencies (listed below)
