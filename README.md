@@ -10,7 +10,7 @@ These scripts are intended for **Ubuntu Desktop 18** and **20** only.
 ## Build instructions:
 1. Install the dependencies (listed below)
 2. Build FFmpeg
-3. Build OBS
+3. Install latest OBS Studio
 
 ## Requirements
 
