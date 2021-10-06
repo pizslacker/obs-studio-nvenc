@@ -4,7 +4,7 @@ Scripts to build/compile **FFmpeg** and **OBS-Studio** with **Nvidia&reg; CUDA&r
 **Nvidia® NVENC® (Nvidia® Encoder/Decoder)** is a proprietary microcontroller hardware based encoding solution. 
 
 
-Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores is heavily sped up and optimized. The NVENC&reg; video-chip included on high-end Nvidia cards accelerates x264/x265(hevc) decoding/encoding as well.
+Video coding involves a lot of floating-point calculations, which is resource-hungry (and slow) on conventional CPUs, while on Nvidia's CUDA-cores (custom FPUs) is heavily sped up and optimized. The NVENC&reg; video-chip included on high-end Nvidia cards accelerates x264/x265(hevc) decoding/encoding as well.
 
 The ffmpeg-script generates a (.deb) package for Ubuntu Desktop 18.04 / 20.04 after compiling completes.
 
