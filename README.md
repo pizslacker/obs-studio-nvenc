@@ -1,5 +1,5 @@
 # OBS-Studio-NVENC
-Scripts to build/compile **FFmpeg** and **OBS-Studio** with **Nvidia&reg; CUDA&reg;** / **NVENC&reg;** hardware-encoding/decoding capability.
+Scripts to build/compile **FFmpeg** (v4.4) and install the latest **OBS-Studio** (v27.1.3) with **Nvidia&reg; CUDA&reg;** / **NVENC&reg;** hardware-encoding/decoding capability.
 
 **Nvidia® NVENC® (Nvidia® Encoder/Decoder)** is a proprietary microcontroller hardware based encoding solution. 
 
