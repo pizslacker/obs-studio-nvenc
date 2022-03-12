@@ -23,8 +23,8 @@ cd ffmpeg/
 # Compile with 8 CPU threads 
 make -j 8 -s && \
 # Build and install Ubuntu/Debian .deb-package
-sudo checkinstall --pkgname=FFmpeg
-sudo apt-mark hold ffmpeg
+sudo checkinstall --pkgname=ffmpeg-cuda
+#sudo apt-mark hold ffmpeg-cuda
 # Run linker and make symlink to ffmpeg
 sudo ldconfig && sudo ln -s /usr/local/bin/ffmpeg /usr/bin/ffmpeg
 cd ../
